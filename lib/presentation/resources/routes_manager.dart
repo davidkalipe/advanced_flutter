@@ -3,6 +3,7 @@ import 'package:advanced_flutter/presentation/login/login.dart';
 import 'package:advanced_flutter/presentation/main/main_view.dart';
 import 'package:advanced_flutter/presentation/onboarding/onboarding.dart';
 import 'package:advanced_flutter/presentation/register/register.dart';
+import 'package:advanced_flutter/presentation/resources/strings_manager.dart';
 import 'package:advanced_flutter/presentation/splash/splash.dart';
 import 'package:advanced_flutter/presentation/store_details/store_details.dart';
 import 'package:flutter/cupertino.dart';
@@ -39,7 +40,7 @@ class RouteGenerator {
       case Routes.storeDetailsRoute:
         return MaterialPageRoute(builder: (_) => StoreDetailsView());
       default:
-        return UnDefinedRoute();
+        return unDefinedRoute();
     }
   }
 
@@ -47,12 +48,12 @@ class RouteGenerator {
     return MaterialPageRoute(builder: (_) =>
         Scaffold(
           appBar: AppBar(
-            title: Text("No Route Found"),
+            title: Text(AppStrings.noRouteFound),
           ),
           body: Center(
-            child: Text("No ROute Found"),
+            child: Text(AppStrings.noRouteFound),
           ),
         )
-    )
+    );
   }
 }
