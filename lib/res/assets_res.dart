@@ -8,5 +8,9 @@ class AssetsRes {
 
   static const String PLUGIN_NAME = 'advanced_flutter';
   static const String PLUGIN_VERSION = '1.0.0+1';
-  static const String SPLASH_LOGO = 'assets/images/splash_logo.jpeg';
+  static const String ONBOARDING_LOGO1 = 'assets/images/onboarding_logo1.svg';
+  static const String ONBOARDING_LOGO2 = 'assets/images/onboarding_logo2.svg';
+  static const String ONBOARDING_LOGO3 = 'assets/images/onboarding_logo3.svg';
+  static const String ONBOARDING_LOGO4 = 'assets/images/onboarding_logo4.svg';
+  static const String SPLASH_LOGO = 'assets/images/splash_logo.png';
 }
