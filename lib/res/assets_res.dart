@@ -8,7 +8,7 @@ class AssetsRes {
 
   static const String PLUGIN_NAME = 'advanced_flutter';
   static const String PLUGIN_VERSION = '1.0.0+1';
-  static const String HOLLOW_CIRLCE_IC = 'assets/images/hollow_cirlce_ic.svg';
+  static const String HOLLOW_CIRCLE_IC = 'assets/images/hollow_circle_ic.svg';
   static const String LEFT_ARROW_IC = 'assets/images/left_arrow_ic.svg';
   static const String ONBOARDING_LOGO1 = 'assets/images/onboarding_logo1.svg';
   static const String ONBOARDING_LOGO2 = 'assets/images/onboarding_logo2.svg';
